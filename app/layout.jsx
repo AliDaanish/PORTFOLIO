@@ -3,6 +3,7 @@ import "./globals.css";
 
 //COMPONENT
 import Header from "@/components/Header";
+// import Transition from '@/components/Transition'
 import PageTransition from "@/components/PageTransition"
 import StairTransition from "@/components/StairTransition";
 
@@ -18,9 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={dm.variable}>
+      <body className={dm.variable}> 
         <Header />
-        <StairTransition />
+        {/* <StairTransition /> */}
         <PageTransition>
           {children}
         </PageTransition>

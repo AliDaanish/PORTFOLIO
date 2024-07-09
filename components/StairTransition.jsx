@@ -20,3 +20,7 @@ const StairTransition = () => {
 }
 
 export default StairTransition
+
+// <div className="h-screen w-screen fixed top-0 left-0 right-0 pointer-events-none z-40 flex">
+//                     <Stairs />
+//                 </div>
