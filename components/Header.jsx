@@ -3,6 +3,7 @@ import Image from "next/image"
 import { Button } from '@/components/ui/button'
 import logo from '@/public/logo.svg'
 import Nav from "./Nav"
+import MobileNav from "./ui/MobileNav"
 
 
 const Header = () => {
@@ -28,7 +29,7 @@ const Header = () => {
         </div>
 
         <div className="xl:hidden">
-          mobile nav
+          <MobileNav />
         </div>
       </div>
     </header>

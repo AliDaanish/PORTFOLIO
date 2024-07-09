@@ -3,9 +3,7 @@ import "./globals.css";
 
 //COMPONENT
 import Header from "@/components/Header";
-// import Transition from '@/components/Transition'
 import PageTransition from "@/components/PageTransition"
-import StairTransition from "@/components/StairTransition";
 
 const dm = DM_Sans({ subsets: ["latin"], weight:["100", "200", "300", "400", "500", "600", "700"],
   variable: '--font-DmSans'
@@ -21,7 +19,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={dm.variable}> 
         <Header />
-        {/* <StairTransition /> */}
         <PageTransition>
           {children}
         </PageTransition>
