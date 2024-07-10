@@ -13,11 +13,12 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex gap-4 items-center">
           <Image src={logo} alt="logo" className="w-16 h-fit" />
-          <div>
-            <h1 className="text-3xl font-semibold">
-              Ali Daanish<span className="text-accent">.</span>
+          <div className="">
+            <h1 className="xl:text-3xl text-2xl font-semibold tracking-widest">
+              anqadream<span className="text-accent">.</span>com
             </h1>
-            <h2 className="tracking-widest text-sm">PRODUCT DESIGNER</h2>
+            <h2 className="tracking-widest text-[13px] xl:text-xl">SOFTWARE DEVELOPER | UI/UX</h2>
+            
           </div>
         </Link>
 
